@@ -1,0 +1,27 @@
+.searchForm {
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.searchInput {
+    height: 24px;
+}
+
+.searchBtn {
+    width: 80px;
+    height: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+    border-radius: 2px;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+}
+.searchBtn:hover,
+.searchBtn:focus{
+    background-color: orangered;
+}
